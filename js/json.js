@@ -17,3 +17,11 @@ const shop  = {
 }
 
 console.log(shop);
+
+const shopJson = JSON.stringify(shop)
+
+const shopObject = JSON.parse(shopJson);
+
+//console.log(shopJson);
+console.log(shopObject);
+
